@@ -49,7 +49,7 @@ if(!isset($_SESSION["uid"])){
 									<div class="col-md-3 col-xs-3">Sl.No</div>
 									<div class="col-md-3 col-xs-3">Product Image</div>
 									<div class="col-md-3 col-xs-3">Product Name</div>
-									<div class="col-md-3 col-xs-3">Price in $.</div>
+									<div class="col-md-3 col-xs-3">Price in Php.</div>
 								</div>
 							</div>
 							<div class="panel-body">
@@ -131,7 +131,7 @@ if(!isset($_SESSION["uid"])){
 							</div>
 						</div> -->
 					</div>
-					<div class="panel-footer">&copy; 2016</div>
+					<div class="panel-footer">&copy; 2019</div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
