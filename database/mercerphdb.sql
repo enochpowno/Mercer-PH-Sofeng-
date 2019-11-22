@@ -108,9 +108,13 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_title`, `product_price`, `product_qty`, `product_desc`, `product_image`, `product_keywords`) VALUES
-(1, 'White Tee', 300, 50, 'Its a white T', 'Logo.jpg', 'white, shirt, tees'),
-(2, 'Black Jacket', 600, 50, 'Its a Black T', 'LOGO HOODIE BLACK.png', 'black, shirt, tees'),
-(3, 'Green Tee', 0, 50, 'Its a Green T', 'LOGO TEE SAFETY GREEN.png', 'green, shirt, tees');
+(1, 'White Logo Tee', 590, 50, 'White logo T', 'Logo.jpg', 'white, shirt, tees'),
+(2, 'Black Logo Hoodie', 990, 50, 'Black hoodie', 'LOGO HOODIE BLACK.png', 'black, hoodie, jacket'),
+(3, 'Green Logo Tee', 590, 50, 'Green logo T', 'LOGO TEE SAFETY GREEN.png', 'green, shirt, tees'),
+(4, 'White Logo Hoodie', 990, 50, 'White hoodie', 'LOGO HOODIE WHITE.png', 'white, hoodie, tees'),
+(5, 'Black Flagship Tee', 649, 50, 'Black flagship T', 'FLAGSHIP TEE BLACK-2.png', 'black, shirt, tees'),
+(6, 'White Visuals Tee', 649, 50, 'White visuals T', 'VISUALS TEE WHITE-2.png', 'white, shirt, tees'),
+(7, 'Black Visuals Tee', 649, 50, 'Black visuals T', 'VISUALS TEE BLACK-2.png', 'black, shirt, tees');
 
 -- --------------------------------------------------------
 
