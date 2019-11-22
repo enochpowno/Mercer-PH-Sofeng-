@@ -24,8 +24,6 @@
               <th>Image</th>
               <th>Price</th>
               <th>Quantity</th>
-              <th>Category</th>
-              <th>Brand</th>
               <th>Action</th>
             </tr>
           </thead>
