@@ -30,7 +30,7 @@
               Products
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link <?php echo ($page == 'brands.php') ? 'active' : ''; ?>" href="brands.php">
               <span data-feather="shopping-cart"></span>
               Brands
@@ -41,7 +41,7 @@
               <span data-feather="shopping-cart"></span>
               Categories
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link <?php echo ($page == 'customers.php') ? 'active' : ''; ?>" href="customers.php">
               <span data-feather="users"></span>
