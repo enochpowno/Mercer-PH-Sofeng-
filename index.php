@@ -127,8 +127,7 @@ if(isset($_SESSION["uid"])){
 					<div class="col-md-12 col-xs-12" id="product_msg">
 					</div>
 				</div>
-
-				<div class="panel panel-info" style="margin-left: -125px; margin-right: 125px">
+				<div class="panel panel-info">
 					<div class="panel-heading">Products</div>
 					<div class="panel-body">
 						<div id="get_product">
@@ -146,9 +145,8 @@ if(isset($_SESSION["uid"])){
 							</div>
 						</div> -->
 					</div>
-					<div class="panel-footer">&copy; 2019</div>
+					<div class="panel-footer">&copy; 2016</div>
 				</div>
-
 			</div>
 			<div class="col-md-1"></div>
 		</div>
