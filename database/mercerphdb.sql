@@ -108,7 +108,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_title`, `product_price`, `product_qty`, `product_desc`, `product_image`, `product_keywords`) VALUES
-(1, 'White Tee', 300, 50, 'Its a white T', 'Logo.jpg', 'white, shirt, tees');
+(1, 'White Tee', 300, 50, 'Its a white T', 'Logo.jpg', 'white, shirt, tees'),
+(2, 'Black Jacket', 600, 50, 'Its a Black T', 'LOGO HOODIE BLACK.png', 'black, shirt, tees'),
+(3, 'Green Tee', 0, 50, 'Its a Green T', 'LOGO TEE SAFETY GREEN.png', 'green, shirt, tees');
 
 -- --------------------------------------------------------
 

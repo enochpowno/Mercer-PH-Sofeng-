@@ -212,7 +212,7 @@ if (isset($_POST["Common"])) {
 						</form>
 						<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 							<input type="hidden" name="cmd" value="_cart">
-							<input type="hidden" name="business" value="shoppingcart@khanstore.com">
+							<input type="hidden" name="business" value="mercerph@yahoo.com">
 							<input type="hidden" name="upload" value="1">';
 							  
 							$x=0;
@@ -226,11 +226,11 @@ if (isset($_POST["Common"])) {
 								     <input type="hidden" name="amount_'.$x.'" value="'.$row["product_price"].'">
 								     <input type="hidden" name="quantity_'.$x.'" value="'.$row["qty"].'">';
 								}
-							  
+							  //C:\xampp\htdocs\Mercer-PH-Sofeng-\payment_success.php
 							echo   
-								'<input type="hidden" name="return" value="http://localhost/project1/payment_success.php"/>
-					                <input type="hidden" name="notify_url" value="http://localhost/KhanStore/payment_success.php">
-									<input type="hidden" name="cancel_return" value="http://localhost/KhanStore/cancel.php"/>
+								'<input type="hidden" name="return" value="http://localhost/Mercer-PH-Sofeng-/payment_success.php"/>
+					                <input type="hidden" name="notify_url" value="http://localhost/Mercer-PH-Sofeng-/payment_success.php">
+									<input type="hidden" name="cancel_return" value="http://localhost/Mercer-PH-Sofeng-/cancel.php"/>
 									<input type="hidden" name="currency_code" value="USD"/>
 									<input type="hidden" name="custom" value="'.$_SESSION["uid"].'"/>
 									<input style="float:right;margin-right:80px;" type="image" name="submit"
