@@ -45,34 +45,6 @@ if(isset($_POST["getProduct"])){
 		}
 	}
 }
-if(isset($_POST["search"])){
-	
-	$keyword = $_POST["keyword"];
-	$sql = "SELECT * FROM products WHERE product_keywords LIKE '%$keyword%'";
-	
-	$run_query = mysqli_query($con,$sql);
-	while($row=mysqli_fetch_array($run_query)){
-			$pro_id    = $row['product_id'];
-			$pro_title = $row['product_title'];
-			$pro_price = $row['product_price'];
-			$pro_image = $row['product_image'];
-			echo "
-				<div class='col-md-4'>
-							<div class='panel panel-info'>
-								<div class='panel-heading'>$pro_title</div>
-								<div class='panel-body'>
-									<img src='product_images/$pro_image' style='width:160px; height:250px;'/>
-								</div>
-								<div class='panel-heading'>$.$pro_price.00
-									<button pid='$pro_id' style='float:right;' id='product' class='btn btn-danger btn-xs'>AddToCart</button>
-								</div>
-							</div>
-						</div>	
-			";
-		}
-	}
-	
-
 
 	if(isset($_POST["addToCart"])){
 		
