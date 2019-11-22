@@ -43,7 +43,8 @@ if(isset($_SESSION["uid"])){
 			<!-- <form class="navbar-form navbar-left">
 		        <div class="form-group">
 		          <input type="text" class="form-control" placeholder="Search" id="search">
-		        </div>
+		        </div> 
+		        
 		        <button type="submit" class="btn btn-primary" id="search_btn"><span class="glyphicon glyphicon-search"></span></button>
 		     </form> -->
 			<ul class="nav navbar-nav navbar-right">
