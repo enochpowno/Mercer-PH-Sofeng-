@@ -1,6 +1,6 @@
 <?php
 
-
+/* MYCART FOR MERCER PH this should include price and stuff*/
 ?>
 <!DOCTYPE html>
 <html>

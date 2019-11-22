@@ -3,6 +3,9 @@ session_start();
 if(isset($_SESSION["uid"])){
 	header("location:profile.php");
 }
+
+/* minsan talaga medyo nakakabobo mag code pero ok lang*/
+
 ?>
 <!DOCTYPE html>
 <html>
