@@ -37,14 +37,13 @@ if(isset($_SESSION["uid"])){
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>About Us</a></li>
+				<li><a href="aboutus.php"><span class="glyphicon glyphicon-home"></span>About Us</a></li>
 				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Products</a></li>
 			</ul>
 			<!-- <form class="navbar-form navbar-left">
 		        <div class="form-group">
 		          <input type="text" class="form-control" placeholder="Search" id="search">
-		        </div> 
-		        
+		        </div>
 		        <button type="submit" class="btn btn-primary" id="search_btn"><span class="glyphicon glyphicon-search"></span></button>
 		     </form> -->
 			<ul class="nav navbar-nav navbar-right">
@@ -128,7 +127,8 @@ if(isset($_SESSION["uid"])){
 					<div class="col-md-12 col-xs-12" id="product_msg">
 					</div>
 				</div>
-				<div class="panel panel-info">
+
+				<div class="panel panel-info" style="margin-left: -125px; margin-right: 125px">
 					<div class="panel-heading">Products</div>
 					<div class="panel-body">
 						<div id="get_product">
@@ -146,8 +146,9 @@ if(isset($_SESSION["uid"])){
 							</div>
 						</div> -->
 					</div>
-					<div class="panel-footer">&copy; 2016</div>
+					<div class="panel-footer">&copy; 2019</div>
 				</div>
+
 			</div>
 			<div class="col-md-1"></div>
 		</div>
