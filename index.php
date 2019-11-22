@@ -8,7 +8,7 @@ if(isset($_SESSION["uid"])){
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Khan Store</title>
+		<title>Mercer PH</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -29,12 +29,13 @@ if(isset($_SESSION["uid"])){
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">Khan Store</a>
+				
+				<img src="water.png" class="navbar-brand"/>
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Products</a></li>
 			</ul>
 			<form class="navbar-form navbar-left">
 		        <div class="form-group">
@@ -51,7 +52,7 @@ if(isset($_SESSION["uid"])){
 									<div class="col-md-3">Sl.No</div>
 									<div class="col-md-3">Product Image</div>
 									<div class="col-md-3">Product Name</div>
-									<div class="col-md-3">Price in $.</div>
+									<div class="col-md-3">Price in Pesos</div>
 								</div>
 							</div>
 							<div class="panel-body">
@@ -68,7 +69,7 @@ if(isset($_SESSION["uid"])){
 						</div>
 					</div>
 				</li>
-				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
+				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Sign in</a>
 					<ul class="dropdown-menu">
 						<div style="width:300px;">
 							<div class="panel panel-primary">

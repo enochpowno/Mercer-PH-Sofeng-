@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "khanstore";
+$db = "store_db";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
