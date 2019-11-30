@@ -61,7 +61,7 @@
 		        		<input type="text" name="product_name" class="form-control" placeholder="Enter Product Name">
 		        	</div>
         		</div>
-        		<div class="col-12">
+        		<!-- <div class="col-12">
         			<div class="form-group">
 		        		<label>Brand Name</label>
 		        		<select class="form-control brand_list" name="brand_id">
@@ -76,7 +76,7 @@
 		        			<option value="">Select Category</option>
 		        		</select>
 		        	</div>
-        		</div>
+        		</div> -->
         		<div class="col-12">
         			<div class="form-group">
 		        		<label>Product Description</label>
