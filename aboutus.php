@@ -83,9 +83,9 @@ if(isset($_SESSION["uid"])){
 										<label for="email">Password</label>
 										<input type="password" class="form-control" name="password" id="password" required/>
 										<p><br/></p>
-										<a href="#" style="color:white; list-style:none;">Forgot Password</a>
+										<a href="#" style="color:white; list-style:none;">Forgotten Password</a>
 										<div class="space"></div>
-										<a href="customer_registration.php" style="color:white; list-style:none;"> Register </a>
+										<a href="customer_registration.php" style="color:white; list-style:none;"> Create a new account? </a>
 
 										<input type="submit" class="btn btn-success" style="float:right;">
 									</form>
@@ -137,8 +137,8 @@ if(isset($_SESSION["uid"])){
 					<div style="margin-left: -150px; margin-top: 50px">
 						<p style="font-size: 20px">MERCER PH is an online clothing store, owned by the De La Salle University alumni, Ryan Llaguno. It was first formed in 2016, and with its simple yet stylish design, it has caught the attention of the younger generation. MERCER PH currently operates on Facebook and Instagram and mainly sells t-shirts and hoodies. As Mr. Ryan has shared, he described MERCER PH as:</p>
 						<div>
-							<p class="quote" style="font-size: 17px">“Mercer is a brand that cultivates a community that shares a passion with arts, music, and clothing. It is more than just a "clothing brand". It is a space wherein artists of the same mindset share and help one another in creating pieces that cater to their core values as creatives."
-										- Ryan Llaguno, owner of Mercer PH</p>
+							<div class="quote" style="font-size: 17px; margin-top:120px; margin-left:500px;">“Mercer is a brand that cultivates a community that shares a passion with arts, music, and clothing. It is more than just a "clothing brand". It is a space wherein artists of the same mindset share and help one another in creating pieces that cater to their core values as creatives."
+										- Ryan Llaguno, owner of Mercer PH</div>
 
 						</div>
 					</div>
