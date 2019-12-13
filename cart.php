@@ -30,8 +30,9 @@
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="aboutus.php"><span class="glyphicon glyphicon-home"></span> About Us</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+				<li><a href="aboutus.php">
+					<span style="margin-right:10px" class="glyphicon glyphicon-home"></span>About Us</a></li>
+				<li><a href="index.php"><span style="margin-right:10px" class="glyphicon glyphicon-modal-window"></span>Products</a></li>
 			</ul>
 		</div>
 	</div>

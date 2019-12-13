@@ -36,9 +36,11 @@ if (isset($_POST["login_user_with_product"])) {
 				<img src="water.png" class="navbar-brand"/>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a href="aboutus.php"><span class="glyphicon glyphicon-home"></span>About Us</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+				<li><a href="aboutus.php">
+					<span style="margin-right:10px" class="glyphicon glyphicon-home"></span>About Us</a></li>
+				<li><a href="index.php"><span style="margin-right:10px" class="glyphicon glyphicon-modal-window"></span>Products</a></li>
 			</ul>
+			
 		</div>
 	</div>
 	<p><br/></p>
@@ -65,9 +67,9 @@ if (isset($_POST["login_user_with_product"])) {
 							<label for="email">Password</label>
 							<input type="password" class="form-control" name="password" id="password" required/>
 							<p><br/></p>
-							<a href="#" style="color:#333; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;" Value="Login">
-							<!--If user dont have an account then he/she will click on create account button-->
-							<div><a href="customer_registration.php?register=1">Create a new account?</a></div>						
+							<a href="#" style="color:white; list-style:none;">Forgotten Password</a>
+										<div class="space"></div>
+										<a href="customer_registration.php" style="color:white; list-style:none;"> Create a new account? </a>					
 						</form>
 				</div>
 				<div class="panel-footer"><div id="e_msg"></div></div>
