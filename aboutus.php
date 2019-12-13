@@ -35,8 +35,9 @@ if(isset($_SESSION["uid"])){
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="aboutus.php"><span class="glyphicon glyphicon-home"></span>About Us</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Products</a></li>
+				<li><a href="aboutus.php">
+					<span style="margin-right:10px" class="glyphicon glyphicon-home"></span>About Us</a></li>
+				<li><a href="index.php"><span style="margin-right:10px" class="glyphicon glyphicon-modal-window"></span>Products</a></li>
 			</ul>
 			<!-- <form class="navbar-form navbar-left">
 		        <div class="form-group">
@@ -82,7 +83,11 @@ if(isset($_SESSION["uid"])){
 										<label for="email">Password</label>
 										<input type="password" class="form-control" name="password" id="password" required/>
 										<p><br/></p>
-										<a href="#" style="color:white; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;">
+										<a href="#" style="color:white; list-style:none;">Forgot Password</a>
+										<div class="space"></div>
+										<a href="customer_registration.php" style="color:white; list-style:none;"> Register </a>
+
+										<input type="submit" class="btn btn-success" style="float:right;">
 									</form>
 								</div>
 								<div class="panel-footer" id="e_msg"></div>
