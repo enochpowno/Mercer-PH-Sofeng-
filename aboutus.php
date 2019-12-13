@@ -4,8 +4,6 @@ if(isset($_SESSION["uid"])){
 	header("location:profile.php");
 }
 
-/* minsan talaga medyo nakakabobo mag code pero ok lang*/
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,7 +14,7 @@ if(isset($_SESSION["uid"])){
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="main.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="uxui.css">
 		<style></style>
 	</head>
 <body>
@@ -134,7 +132,7 @@ if(isset($_SESSION["uid"])){
 					<div style="margin-left: -150px; margin-top: 50px">
 						<p style="font-size: 20px">MERCER PH is an online clothing store, owned by the De La Salle University alumni, Ryan Llaguno. It was first formed in 2016, and with its simple yet stylish design, it has caught the attention of the younger generation. MERCER PH currently operates on Facebook and Instagram and mainly sells t-shirts and hoodies. As Mr. Ryan has shared, he described MERCER PH as:</p>
 						<div>
-							<p style="font-size: 17px">“Mercer is a brand that cultivates a community that shares a passion with arts, music, and clothing. It is more than just a "clothing brand". It is a space wherein artists of the same mindset share and help one another in creating pieces that cater to their core values as creatives."
+							<p class="quote" style="font-size: 17px">“Mercer is a brand that cultivates a community that shares a passion with arts, music, and clothing. It is more than just a "clothing brand". It is a space wherein artists of the same mindset share and help one another in creating pieces that cater to their core values as creatives."
 										- Ryan Llaguno, owner of Mercer PH</p>
 
 						</div>
